@@ -1,12 +1,60 @@
+<!--
+    HTML basic structure
+    <HTML> -> represents html root document
+    <HTML> consists <head> and <body>
+    <title> name of tab in browser 
+    <body> contains all content that should appier in the web-site
+    <div> means division and uses to structure your code / container. Uses often when developer uses design in web-site
+    <header> head area of the web-site. Uses to give user a general idea what to expect from website
+    <footer> footer is the conterpart to the header. It is the last section of the web-site and contains links like customer services, privacy policy, contact info etc.
+    <section> entire area of your web-site. Website usually has many sections wich are seperated from each other by color(for example)
+
+    <tr> Table row
+    <th> Header cell
+    <td> Table cell
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Language that browser is using-->
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- charracter set for the website-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tutorial page</title>
 </head>
 <body>
-    
+    <p>HTML basic structure: <br>
+        <code>HTML</code> -> represents html root document<br>
+        <code>HTML</code> consists <code>HEAD</code> and <code>BODY</code><br>
+        <code>title</code> name of tab in browser<br>
+        <code>body</code> contains all content that should appier in the web-site<br>
+    </p>
+
+    <a href="https://www.youtube.com">Link to YouTube</a><br>
+    <a href="about_us.html">About us</a>
+
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+
+    <table style="width:100%">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
 </body>
 </html>
