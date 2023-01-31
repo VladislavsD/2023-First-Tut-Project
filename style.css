@@ -1,0 +1,12 @@
+body {
+   background-image: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=826&t=st=1675189438~exp=1675190038~hmac=f9db852a4cc12031004e1b545d52390364896998c10051d6db8f5e20c3118ac2);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+ h1 {
+   color: blue;
+ }
+ p {
+   color: darkolivegreen;
+ }
