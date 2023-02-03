@@ -10,3 +10,11 @@ body {
  p {
    color: darkolivegreen;
  }
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #4e4e4e;
+}
