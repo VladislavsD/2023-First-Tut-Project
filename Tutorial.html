@@ -1,31 +1,3 @@
-<!--
-    HTML basic structure
-    <HTML> -> Rrepresents html root document
-    <HTML> Consists <head> and <body>
-    <title> Name of tab in browser 
-    <body> Contains all content that should appier in the web-site
-    <div> Mmeans division and uses to structure your code / container. Uses often when developer uses design in web-site
-    <header> Head area of the web-site. Uses to give user a general idea what to expect from website
-    <footer> Footer is the conterpart to the header. It is the last section of the web-site and contains links like customer services, privacy policy, contact info etc.
-    <section> Entire area of your web-site. Website usually has many sections wich are seperated from each other by color(for example)
-    <a> Links
-    <tr> Table row
-    <th> Header cell
-    <td> Table cell
-    ..
-      <img src="img.jpg"> ... where:
-      img                      ==> TAG,
-      src                      ==> ATTRIBUTE/PROPERTY, 
-      src content ["img.jpg"]  ==> ATTRIBUTE VALUE
-    ..
-      <body style="background-color:powderblue;">
-      example
-      <tagname style="property:value;">
-      The property is a CSS property. The value is a CSS value.
-    .
-
-
--->
 <!DOCTYPE html>
 <html lang="en"> <!--Language that browser is using-->
 <head>
@@ -40,11 +12,10 @@
 
   <header>
     <ul>
-      <li>NEWS</li>
       <li><a href="about_us.html">ABOUT ME</a></li>
       <li><a href="wo-table.html">WORKOUT TRACKER</a></li>
       <li>GALLERY</li>
-      <li>TUTORIAL</li>
+      <li><a href="learning.html">TUTORIAL</a></li>
     </ul>
   </header>
 
@@ -64,62 +35,6 @@
 
   <hr />
 
-  <aside> 
-    <h1>HTML Text formatitng:</h1>
-    This is <b> - Bold text</b>                 <br>
-    This is <strong> - Important text</strong>  <br>
-    This is <i> - Italic text</i>               <br>
-    This is <em> - Emphasized text</em>         <br>
-    This is <mark> - Marked text</mark>         <br>
-    This is <small> - Smaller text</small>      <br>
-    This is <del> - Deleted text</del>          <br>
-    This is <ins> - Inserted text</ins>         <br>
-    This is <sub> - Subscript text</sub>        <br>
-    This is <sup> - Superscript text</sup>      <br>
-
-  </aside>
-
-  <hr />
-
-  <section>
-    <table>
-      <tr>
-        <th>Person 1</th>
-        <th>Person 2</th>
-        <th>Person 3</th>
-      </tr>
-      <tr>
-        <td>Vemil</td>
-        <td>Tobias</td>
-        <td>Linus</td>
-      </tr>
-      <tr>
-        <td>A desc</td>
-        <td>B desc</td>
-        <td>C desc</td>
-      </tr>
-      <tr>
-        <td>1 desc</td>
-        <td>2 desc</td>
-        <td>3 desc</td>
-      </tr>
-    </table> 
-    <br>
-    table     -	Defines a table <br>
-    th        - Defines a header cell in a table <br>
-    tr        - Defines a row in a table <br>
-    td        - Defines a cell in a table <br>
-    caption   - Defines a table caption <br>
-    colgroup  - Specifies a group of one or more columns in a table for formatting <br>
-    col       -	Specifies column properties for each column within a colgroup element <br>
-    thead     -	Groups the header content in a table <br>
-    tbody     -	Groups the body content in a table <br>
-    tfoot     - Groups the footer content in a table <br>
-    <hr />
-  </section>
-
-  <hr />
-
   <footer>
     <ul>
       <li>About us</li>
@@ -127,9 +42,5 @@
       <li>Online chat</li>
     </ul>
   </footer>
-
-
-
-
 </body>
 </html>
