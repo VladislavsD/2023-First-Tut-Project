@@ -11,13 +11,13 @@
     <header>
         <ul>
             <li><a href="Tutorial.html">HOME PAGE</a></li>
-            <li>THIRD PAGE</li>
+            <li><a href="habit-tracker.html">HABIT TRACKER</a></li>
             <li>FOURTH PAGE</li>
             <li>ABOUT ME</li>
         </ul>
     
         <hr />
-
+    </header>
     <section>
     <table>
     <caption>WorkOut 1st [First WO day of this week]</caption>
@@ -92,6 +92,34 @@
     </table>
     </table>
     </section>
-    </header>
+    <aside>
+        <form action="">
+            <label for="exarcise">Exarcise:</label><br>
+            <input type="text" name="exarcise" id="exarcise" value="Chose cxercise..."><br>
+            <label for="set">Set:</label><br>
+            <input type="text" name="set" id="set"><br>
+            <label for="rep">Rep:</label><br>
+            <input type="text" name="rep" id="rep"><br>
+            <label for="weight">Weight:</label><br>
+            <input type="text" name="weight" id="weight"><br>
+            <label for="note">Note:</label><br>
+            <input type="text" name="note" id="note"><br>
+            <label for="date">Date:</label><br>
+            <input type="date" name="date" id="date"><br>
+            <label for="b-weight">Body weight:</label><br>
+            <input type="text" name="b-weight" id="b-weight"><br>
+            <input type="submit" value="Submit">
+            
+
+            <!-- 
+                Tip: The for attribute of the lable tag should be equal to the id attribute of the input element to bind them together.
+
+                Tip: If the name attribute is omitted, the value of the input field will not be sent at all.
+
+                Tip: If the action attribute is omitted, the action is set to the current page.
+            -->
+            
+        </form>
+    </aside>
 </body>
 </html>
