@@ -3,7 +3,7 @@
 }
 */
 header, section, aside, footer {
-  background-color: rgb(200, 255, 237);
+  background-color: rgb(133, 255, 143);
 }
 
 h1 {
@@ -18,4 +18,22 @@ table, th, td {
   border: 1px solid rgb(222, 255, 33);
   border-collapse: collapse;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+Delete after this comment for later on branching or commiting changes
+*/
+
+header, aside, footer {
+  opacity: 0.4;
+}
+
+* {
+  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  /*background-attachment: scroll; --> Specifys that the background image should scroll with the rest of the page */
+  
+  /* Sets whether a background image is fixed or scrolls with the rest of the page */
+
 }
