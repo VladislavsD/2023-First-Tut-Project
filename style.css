@@ -2,9 +2,6 @@
   background-color: lavender;
 }
 */
-header, section, aside, footer {
-  background-color: rgb(133, 255, 143);
-}
 
 h1 {
   color: blue;
@@ -13,16 +10,44 @@ p {
   color: rgb(107, 47, 92);
 }
 
+li {
+  display: inline;
+  /*display: none;
+  *display: hidden;
+  *display: inline;
+  *display: block;
+  *display: inline-block;
+  */
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Setd table to center */
 
 table, th, td {
-  border: 1px solid rgb(222, 255, 33);
-  border-collapse: collapse;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid lavender;
+  width: 45%;
+  padding: 5px;
+  empty-cells: hide;
+}
+
+table.table-2, table.table-3 {
+  text-align: left;
+  width:26%;
+}
+
+tr:hover {
+  background-color: violet;
+  color: rgb(202, 72, 72);
 }
 
 /*
 *
-Delete after this comment for later on branching or commiting changes
+*Delete after this comment for later on *branching or commiting changes
 *
 *
 *
@@ -40,6 +65,10 @@ header, aside, footer {
   
   /* Sets whether a background image is fixed or scrolls with the rest of the page */
 
+}
+
+ul {
+  list-style-type: square;
 }
 
 /*
@@ -106,10 +135,46 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 / white-space: nowrap; / -> white-space property specifies how white-space inside an element is handled.
 
 / text-shadow / -> Specifies the shadow effect added to text.
-// ->
-// ->
-// ->
-// ->
-// ->
-// ->
-*/
+
+/ list-style /          -> Sets all the properties for a list in one declaration
+
+/ list-style-image /    -> Specifies an image as the list-item marker
+
+/ list-style-position / -> Specifies the position of the list-item markers (bullet points)
+
+/ list-style-type /     -> Specifies the type of list-item marker
+
+/ owerflow-x:auto / -> a responsive table will display a horizontal scroll bar if the screen is too small to display the full content
+
+/ border / -> Sets all the border properties in one declaration
+
+/ border-collapse / -> Specifies whether or not table borders should be collapsed
+
+/ border-spacing / -> Specifies the distance between the borders of adjacent cells
+
+/ caption-side / -> Specifies the placement of a table 
+
+/ empty-cells / -> Specifies whether or not to display borders and background on empty cells in a table
+
+/ table-layout / -> Sets the layout algorithm to be used for a table
+
+/ display / -> Specifies how an element should be displayed
+
+  display: none;
+  display: hidden;
+  display: inline;
+  display: block;
+  display: inline-block;
+
+/ visibility / -> Specifies whether or not an element should be visible
+/ aaa / -> aaa
+/ aaa / -> aaa
+/ aaa / -> aaa
+/ aaa / -> aaa
+/ aaa / -> aaa
+
+
+ 	
+ 	
+
+*/	
