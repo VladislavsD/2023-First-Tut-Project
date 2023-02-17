@@ -1,9 +1,10 @@
-/* {
-  background-color: lavender;
+* {
+  margin: 0;
+  padding: 0;
 }
-*/
+
 header, section, aside, footer {
-  background-color: rgb(133, 255, 143);
+  background-color: rgba(133, 255, 143, 0.4);
 }
 
 h1 {
@@ -13,6 +14,9 @@ p {
   color: rgb(107, 47, 92);
 }
 
+section {
+  width: 55%;
+}
 
 table, th, td {
   border: 1px solid rgb(222, 255, 33);
@@ -20,20 +24,45 @@ table, th, td {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*
-*
-Delete after this comment for later on branching or commiting changes
-*
-*
-*
-*/
+aside {
+  width: 40%;
+  float: right;
+}
 
-header, aside, footer {
-  opacity: 0.4;
+ul {
+  background-color: #333;text-align: center;
+  list-style-type: none; /* Removes markers */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  /* Set margin: 0; and padding: 0; to remove browser default settings */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block; 
+  /* display: inline-block does not add a line-break after the element, so the element can sit next to other elements. */
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
 }
 
 * {
+  /*
   background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
+  */
   background-repeat: no-repeat;
   background-attachment: fixed; 
   /*background-attachment: scroll; --> Specifys that the background image should scroll with the rest of the page */
@@ -106,10 +135,46 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 / white-space: nowrap; / -> white-space property specifies how white-space inside an element is handled.
 
 / text-shadow / -> Specifies the shadow effect added to text.
+/ overflow / -> Specifies what happens if content overflows an element's box
+
+/ overflow-wrap / -> Specifies whether or not the browser can break lines with long words, if they overflow its container
+
+/ overflow-x / -> Specifies what to do with the left/right edges of the content if it overflows the element's content area
+/ overflow-y / -> Specifies what to do with the top/bottom edges of the content if it overflows the element's content area
 // ->
 // ->
-// ->
-// ->
-// ->
-// ->
+
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+
+element element 	div p 	Selects all <p> elements inside <div> elements
+
+element>element 	div > p 	Selects all <p> elements where the parent is a <div> element
+
+element+element 	div + p 	Selects the first <p> element that are placed immediately after <div> elements
+
+element1~element2 	p ~ ul 	Selects every <ul> element that are preceded by a <p> element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
