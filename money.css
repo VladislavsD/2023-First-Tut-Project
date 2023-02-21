@@ -1,0 +1,44 @@
+/* 
+   Main page content
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+/* 
+   Header
+*/
+
+ul {
+   background-color: green;
+   padding: 20px;
+   list-style-type: none; /* Removes markers */
+}
+
+li {
+   background-color: gray;
+   display: inline; /* Sets navigation links in one line */
+}
+
+.active {
+   background-color: rgba(255, 0, 0, 0.25);
+}
+
+
+/* 
+   Section
+*/
+
+
+
+
+
+
+/* 
+   Footer
+*/

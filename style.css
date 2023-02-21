@@ -10,8 +10,18 @@ p {
   color: rgb(107, 47, 92);
 }
 
-li {
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* overflow:hidden prevents scrollbars from appearing */
+}
+
+li, a:link {
   display: inline;
+  
+  text-decoration: none;
   /*display: none;
   *display: hidden;
   *display: inline;
@@ -19,6 +29,7 @@ li {
   *display: inline-block;
   */
 }
+
 
 table {
   margin-left: auto;
@@ -29,7 +40,7 @@ table {
 table, th, td {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-collapse: collapse;
-  border: 1px solid lavender;
+  border: 1px solid gray;
   width: 45%;
   padding: 5px;
   empty-cells: hide;
@@ -41,8 +52,7 @@ table.table-2, table.table-3 {
 }
 
 tr:hover {
-  background-color: violet;
-  color: rgb(202, 72, 72);
+  background-color: rgb(255, 180, 180);
 }
 
 /*
@@ -58,7 +68,7 @@ header, aside, footer {
 }
 
 * {
-  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
+  /*background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg"); */
   background-repeat: no-repeat;
   background-attachment: fixed; 
   /*background-attachment: scroll; --> Specifys that the background image should scroll with the rest of the page */
@@ -176,5 +186,12 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 
  	
  	
+element element 	div p 	Selects all <p> elements inside <div> elements
+
+element>element 	div > p 	Selects all <p> elements where the parent is a <div> element
+
+element+element 	div + p 	Selects the first <p> element that are placed immediately after <div> elements
+
+element1~element2 	p ~ ul 	Selects every <ul> element that are preceded by a <p> element
 
 */	
