@@ -1,5 +1,5 @@
 * {
-
+  /* margin: 0; /* the space around an element's border */
 }
 
 body {
@@ -12,27 +12,46 @@ body {
  }
 
 .top-nav {
-  overflow: hidden; /* ??? */
+  text-align: center; /* in this situation centers the navigation bar */
   background-color: #6d6d6d;
+  margin: 0; /* the space around an element's border */
+}
+
+.top-nav  {
+  font-size: 17px;
+  padding: 20px 18px; /* an element's padding area is the space between its content and its border */
+}
+
+.top-nav li {
+  display: inline-block;
 }
 
 .top-nav a {
-  float: left;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  font-size: 17px;
-  padding: 10px 15px;
+  text-decoration: none; /* removes any text decoration */
+  padding: 20px 15px; /* space between its content and its border */
+  display: block;
+}
+
+.top-nav li {
+  display: inline-block; /* to remove line breaks before and after each list item, to display them on one line */
 }
 
 .top-nav a:hover {
-  background-color: #7e7e7e;
-  color: black;
+  background-color: rgb(102, 102, 102);
+}
+
+a, a:visited, a:hover, a:active /* to anchor color to stay the same as the anchor's parent element */ {
+  color: inherit;
+}
+
+.main-nav {
+  text-align: center;
 }
 
 h1 {
   color: blue;
 }
+
 p {
   color: darkolivegreen;
 }
@@ -41,6 +60,22 @@ table, th, td {
   border: 1px solid white;
   border-collapse: collapse;
 }
+
 th, td {
   background-color: #d8d8d8;
 }
+
+
+
+
+
+
+/*
+
+  list-style-type: none; ||| defines the type of list by setting the content of each marker, or bullet, on the list. Acceptable keyword values for list-style-type include: disc. circle. square. |||
+
+  overflow: hidden; ||| ??? |||
+
+
+
+*/
