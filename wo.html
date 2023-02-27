@@ -5,30 +5,33 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <link rel="stylesheet" href="header_style.css">
+   <!--
+      <link rel="stylesheet" href="header_style.css">
+      <link rel="stylesheet" href="main_style.css">
+      <link rel="stylesheet" href="section-table_style.css">
+      <link rel="stylesheet" href="aside-form_style.css">
+   -->
    <link rel="stylesheet" href="main_style.css">
+   <link rel="stylesheet" href="header-footer_style.css">
    <link rel="stylesheet" href="section-table_style.css">
    <link rel="stylesheet" href="aside-form_style.css">
 </head>
 <body>
    
    <header>
-      <ul>
-         <li>
-            <a href="Tutorial.html" class="active">Home</a>
-         </li>
-         <li>
-            <a href="about_us.html">About</a>
-         </li>
-         <li class="dropdown">
-            <a>Dropdown</a>
-            <div class="dropdown-content">
-               <a href="#">Folder A</a>
-               <a href="#">Folder B</a>
-               <a href="#">Folder C</a>
-            </div>
-         </li>
-      </ul>
+      <nav>
+         <ul class="top-nav">
+            <li>
+               <a href="Tutorial.html">Home</a>
+            </li>
+            <li>
+               <a href="#">About</a>
+            </li>
+            <li>
+               <a href="#">Dropdown</a>
+            </li>
+         </ul>
+      </nav>
    </header>
 
    <section>
@@ -110,10 +113,13 @@
    </aside>
    
    <footer>
-      <ul>
-         <li><a href="Tutorial.html">Home Page</a></li>
-         <li><a href="about_us.html">About Us</a></li>
-      </ul>
+      <nav>
+         <ul class="bottom-nav">
+            <li><a href="#">Home Page</a></li>
+            <li><a href="#">About Us</a></li>
+         </ul>
+      </nav>
+      
    </footer>
 </body>
 </html>

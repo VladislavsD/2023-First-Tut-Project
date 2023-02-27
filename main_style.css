@@ -1,19 +1,18 @@
 * {
-  /* || Set margin: 0; and padding: 0; to remove browser default settings */
+  /* Sets margin: 0; and padding: 0; to remove browser default settings */
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  /* || Sets whether a background image is fixed or scrolls with the rest of the page */ 
+  /* Sets whether a background image is fixed or scrolls with the rest of the page */ 
 }
 
 body {
-  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
+  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");  /* Sets the bg-image of an element */
 }
 
 header, section, aside, footer {
-  background-color: rgba(133, 255, 143, 0.4);
-  /* || background-color -> Sets the bg color of an element */
+  background-color: rgba(133, 255, 143, 0.4); /* Sets the bg-color of an element */
 }
 
 h1 {
