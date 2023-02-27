@@ -11,29 +11,26 @@ body {
    font-family: Arial, Helvetica, sans-serif;
  }
 
+
+
+/* || Header and Main Navigation */
+
 .top-nav {
   text-align: center; /* in this situation centers the navigation bar */
+  padding: 20px 18px; /* an element's padding area is the space between its content and its border */
   background-color: #6d6d6d;
+  font-size: 18px;
   margin: 0; /* the space around an element's border */
 }
 
-.top-nav  {
-  font-size: 17px;
-  padding: 20px 18px; /* an element's padding area is the space between its content and its border */
-}
-
 .top-nav li {
-  display: inline-block;
+  display: inline-block; /* to remove line breaks before and after each list item, to display them on one line */
 }
 
 .top-nav a {
   text-decoration: none; /* removes any text decoration */
   padding: 20px 15px; /* space between its content and its border */
   display: block;
-}
-
-.top-nav li {
-  display: inline-block; /* to remove line breaks before and after each list item, to display them on one line */
 }
 
 .top-nav a:hover {
@@ -43,6 +40,35 @@ body {
 a, a:visited, a:hover, a:active /* to anchor color to stay the same as the anchor's parent element */ {
   color: inherit;
 }
+
+
+
+/* || Bottom navigation */
+
+.bottom-nav {
+  background-color: #6d6d6d;
+  font-size: 17px;
+  padding: 18px 10px;
+  text-align: right;
+}
+
+.bottom-nav li {
+  display: inline-block;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  padding: 4px 12px;
+  display: block;
+}
+
+.bottom-nav a:hover {
+  background-color: rgb(102, 102, 102);
+}
+
+
+
+/* || ...   */
 
 .main-nav {
   text-align: center;
