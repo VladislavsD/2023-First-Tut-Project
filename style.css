@@ -31,22 +31,19 @@ table, th, td {
 
 aside {
   width: 40%;
-  float: right;
+  /*float: right;*/
     /* Places an element on the left or right side of its container, allowing text and inline elements to wrap around it */
 }
 
 ul {
   background-color: #979797;text-align: center;
-  list-style-type: none;
-    /* Removes markers */
+  list-style-type: none; /* Removes markers */
   overflow: hidden;
   margin: 0;
-  padding: 0;
-    /* Set margin: 0; and padding: 0; to remove browser default settings */
+  padding: 0; /* Set margin: 0; and padding: 0; to remove browser default settings */
   position: sticky;
     /* A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). */
-  position: -webkit-sticky;
-    /* Same as position: sticky but for Safari web-browser */
+  position: -webkit-sticky; /* Same as position: sticky but for Safari web-browser */
 }
 
 li {
