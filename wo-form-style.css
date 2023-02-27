@@ -1,6 +1,11 @@
-* {
-   margin: 0;
-   padding: 0;
+aside {
+   width: 40%;
+   /*float: right;*/
+     /* Places an element on the left or right side of its container, allowing text and inline elements to wrap around it */
+ }
+
+.form {
+   text-align: center;
 }
 
 input[type=text] {
@@ -22,5 +27,5 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-   width: 45.5%;
+   width: 45.7%;
 }
