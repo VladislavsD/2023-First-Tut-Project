@@ -1,5 +1,27 @@
 /*
 
+h1 {color:blue !important; font-size:12px;}
+    Where:
+        h1 is SELECTOR
+        color is PROPERTY
+        blue !important is VALUE (and !important used to override property)
+        font-size is PROPERTY
+        12px is VALUE 
+
+Specificity Hierarchy
+
+Every CSS selector has its place in the specificity hierarchy.
+
+There are four categories which define the specificity level of a selector:
+
+    Inline styles - Example: <h1 style="color: pink;">
+    IDs - Example: #navbar
+    Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+    Elements and pseudo-elements - Example: h1, :before
+
+
+
+
 background          -> Sets all the background properties in one declaration
 background-attachment-> Sets weather a background image is fixed or scrolls with the rest of the page
 

@@ -14,11 +14,3 @@ body {
 header, section, aside, footer {
   background-color: rgba(133, 255, 143, 0.4); /* Sets the bg-color of an element */
 }
-
-h1 {
-  color: blue;
-}
-
-p {
-  color: rgb(107, 47, 92);
-}

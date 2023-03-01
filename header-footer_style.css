@@ -1,52 +1,5 @@
-/* || Top navigation bar */
-
-.top-nav {
-   text-align: center;  /* set navigation bar text to center */
-   padding: 20px 18px; 
-   background-color: #7d7d7d;
-   list-style-type: none; /* to remove markers */
+header {
+   background-color: #afafaf;
+   padding: 25px;
+   text-align: center;
 }
-
-.top-nav li {
-   display: inline-block; /*to remove line breaks before and after each list item, to display them on one line */
-}
-
-.top-nav a {
-   text-decoration: none; /*removes any text decoration */
-   padding: 14px 24px;
-   background-color: rgb(0, 0, 0);
-}
-
-.top-nav a:hover {
-   background-color: #5e5e5e;
-   color: #fff3dd;
-}
-
-a, a:visited, a:hover, a:active {
-   color: rgb(224, 224, 224);
-}
-
-
-/* || Bottom navigation bar */
-
-.bottom-nav {
-   bottom: 0;
-   text-align: right;
-   padding: 20px 18px;
-   background-color: #7d7d7d;
-   list-style-type: none; /* || to remove markers */
-}
-
-.bottom-nav li {
-   display: inline-block; /* ??? */ 
-}
-
-.bottom-nav a {
-   text-decoration: none;
-   padding: 0px 10px;
-}
-
-.bottom-nav a:hover {
-   color: #ffdc9b;
-}
-
