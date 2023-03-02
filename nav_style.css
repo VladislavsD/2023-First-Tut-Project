@@ -2,7 +2,7 @@
 
 .top-nav {
    text-align: center;  /* set navigation bar text to center */
-   padding: 20px 18px; 
+   padding: 24px 18px; 
    background-color: #7d7d7d;
    list-style-type: none; /* to remove markers */
 }
@@ -16,11 +16,12 @@
    padding: 14px 24px;
    background-color: rgb(0, 0, 0);
    border-radius: 12px 5px; /* to get rounded corners */
+   box-shadow: 2px 5px #ffca85;
 }
 
 .top-nav a:hover {
    background-color: #5e5e5e;
-   color: #fff3dd;
+   color: #ffca85;
 }
 
 a, a:visited, a:hover, a:active {
@@ -48,5 +49,5 @@ a, a:visited, a:hover, a:active {
 }
 
 .bottom-nav a:hover {
-   color: #ffdc9b;
+   color: #ffca85;
 }
