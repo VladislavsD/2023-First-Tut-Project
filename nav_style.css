@@ -1,16 +1,19 @@
-/* || Top navigation bar */
+/* || TOP NAVIGATION BAR */
 
+/* || Style top navigation bar */
 .top-nav {
    text-align: center;  /* set navigation bar text to center */
    padding: 24px 18px; 
-   background-color: #7d7d7d;
+   background-color: #425157;
    list-style-type: none; /* to remove markers */
 }
 
+/* || Style the ... */
 .top-nav li {
    display: inline-block; /*to remove line breaks before and after each list item, to display them on one line */
 }
 
+/* || Style the topnav links */
 .top-nav a {
    text-decoration: none; /*removes any text decoration */
    padding: 14px 24px;
@@ -19,23 +22,28 @@
    box-shadow: 2px 5px #ffca85;
 }
 
+/* || Style ... */
 .top-nav a:hover {
    background-color: #5e5e5e;
-   color: #ffca85;
+   color: rgb(238, 199, 142);
 }
 
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
    color: rgb(224, 224, 224);
 }
 
 
-/* || Bottom navigation bar */
+/* || BOTTOM NAVIGATION BAR */
 
+/* || Style bottom navigation bar */
 .bottom-nav {
    bottom: 0;
    text-align: right;
    padding: 20px 18px;
-   background-color: #7d7d7d;
+   background-color: #425157;
    list-style-type: none; /* || to remove markers */
 }
 
@@ -49,5 +57,5 @@ a, a:visited, a:hover, a:active {
 }
 
 .bottom-nav a:hover {
-   color: #ffca85;
+   color: rgb(238, 199, 142);
 }

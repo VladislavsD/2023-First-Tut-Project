@@ -16,7 +16,7 @@ input[type=text] {
    */
    border: none; /* removes borders */
    border-bottom: 2px solid #ccc; /* sets bottom border values */
-   box-shadow: 8px 5px #ffca85;
+   box-shadow: 8px 5px rgb(250, 202, 139);
 }
 
 input[type=text]:focus /* to do something with the input field when it gets focus */ {
