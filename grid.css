@@ -1,0 +1,17 @@
+nav {
+   width: 15%;
+   float: left;
+   padding: 15px;
+}
+
+aside {
+   width: 25%;
+   float: left;
+   padding: 15px;
+}
+
+section {
+   width: 25%;
+   float: left;
+   padding: 15px;
+}
