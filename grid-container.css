@@ -1,0 +1,37 @@
+.grid-container {
+   /*
+      an HTML doc element becomes a grid container when its display is set to grid or inline-grid
+   */
+   /*
+      use display:grid to make block-level container OR display:inline-grid to make inline-grid container
+   */
+   display: grid; /* display: grid; ->  makes block-level grid container */
+   grid-template-columns: 1fr 1fr 1fr 1fr; /* makes 4 columns */ 
+   grid-template-rows: auto;
+   grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+}
+
+.grid-container > div {
+   border: 1px solid green;
+   padding: 50px;
+   text-align: center;
+}
+
+.item-a {
+   grid-area: header;
+}
+
+.item-b {
+   grid-area: main;
+}
+
+.item-c {
+   grid-area: sidebar;
+}
+
+.item-d {
+   grid-area: footer;
+}
