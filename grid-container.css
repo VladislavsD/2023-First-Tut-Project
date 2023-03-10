@@ -6,12 +6,19 @@
       use display:grid to make block-level container OR display:inline-grid to make inline-grid container
    */
    display: grid; /* display: grid; ->  makes block-level grid container */
-   grid-template-columns: 1fr 1fr 1fr 1fr; /* makes 4 columns */ 
-   grid-template-rows: auto;
-   grid-template-areas: 
+   grid-template-columns: 1fr 1fr 1fr 1fr; /*  */ 
+   grid-template-columns: repeat(4, 1fr);  /*or -> 1fr 1fr 1fr 1fr; (makes 4 columns)*/
+   /*grid-template-rows: auto;*/
+   grid-template-rows: repeat(3, 1fr);
+   grid-template-areas:  /* defines a grid template by referencing the names of the grid areas */
       "header header header header"
       "main main . sidebar"
       "footer footer footer footer";
+      /*
+         <grid-area-name>  – the name of a grid area specified with grid-area,
+         .                 - a period signifies an empty grid-area,
+         none              - no grid areas are defined
+      */
 }
 
 .grid-container > div {
