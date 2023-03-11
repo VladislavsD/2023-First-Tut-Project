@@ -1,5 +1,10 @@
 /* || TOP NAVIGATION BAR */
 
+/* || Style the container navigation bar */
+.container-b {
+   
+}
+
 /* || Style top navigation bar */
 .top-nav {
    text-align: center;  /* set navigation bar text to center */
@@ -34,6 +39,8 @@ a:hover,
 a:active {
    color: rgb(224, 224, 224);
 }
+
+
 
 
 /* || BOTTOM NAVIGATION BAR */
