@@ -1,17 +1,55 @@
-nav {
-   width: 15%;
-   float: left;
-   padding: 15px;
+.grid-container {
+   /*
+      an HTML doc element becomes a grid container when its display is set to grid or inline-grid
+   */
+   /*
+      use display:grid to make block-level container OR display:inline-grid to make inline-grid container
+   */
+   display: grid; /* makes block-level grid container */
+   grid-template-columns: repeat(4, 1fr);  /*or -> 1fr 1fr 1fr 1fr; (makes 4 columns)*/
+   grid-template-rows: repeat(3, 1fr); /* makes 4 rows */
+   grid-template-areas:
+      "header header header header"
+      "nav nav nav nav"
+      "main main main aside"
+      "footer footer footer footer";
+   /* 
+      grid-template-areas -> defines a grid template by referencing the names of the grid areas */
+   /*
+      <grid-area-name>  – the name of a grid area specified with grid-area,
+      .                 - a period signifies an empty grid-area,
+      none              - no grid areas are defined
+   */
+
+   
+   /* grid-auto-flow: dense; /* place items to fill any holes in the grid */
+   /*
+      The grid-auto-flow property controls how auto-placed items get inserted in the grid.
+   */
 }
 
-aside {
-   width: 25%;
-   float: left;
-   padding: 15px;
+.container {
+   border: 1px solid green;
+   padding: 50px;
+   text-align: center;
 }
 
-section {
-   width: 25%;
-   float: left;
-   padding: 15px;
+.container-a {
+   grid-area: header;
+}
+
+.container-b {
+   grid-area: nav;
+}
+
+.container-c {
+   grid-area: main;
+}
+
+.container-d {
+   grid-area: aside;
+}
+
+.container-e {
+   grid-area: footer;
 }

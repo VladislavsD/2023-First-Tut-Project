@@ -4,147 +4,90 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This gives the browser instructions on how to control the page's dimensions and scaling -->
-   <title>Document</title>
-<!--
+   <title>Document</title> <!-- The document/web-page title that shows on top of web-page search bar -->
+
+   <link rel="stylesheet" href="grid.css">
    <link rel="stylesheet" href="main_style.css">
-   <link rel="stylesheet" href="header-footer_style.css"> 
+   <link rel="stylesheet" href="header-footer_style.css">
    <link rel="stylesheet" href="nav_style.css">
-   
    <link rel="stylesheet" href="section-table_style.css">
    <link rel="stylesheet" href="aside-form_style.css">
-   <link rel="stylesheet" href="flex.css">
--->
-
-   <link rel="stylesheet" href="gris-YT-tut.css">
 
 </head>
 <body>
-   
-   <header>
-      <h1>2023.jan</h1>
-   </header>
+   <div class="grid-container">
 
-   <nav>
-      <ul class="top-nav">
-         <li>
-            <a href="#">Home</a>
-         </li>
-         <li>
-            <a href="#">About</a>
-         </li>
-         <li>
-            <a href="#">Dropdown</a>
-         </li>
-      </ul>
-   </nav>
+      <header class="container container-a">
+         <h1>2023.jan</h1>
+      </header>
 
-   <hr />
+      <nav class="container container-b">
+         <ul class="top-nav">
+            <li>
+               <a href="#">Home</a>
+            </li>
+            <li>
+               <a href="#">About</a>
+            </li>
+            <li>
+               <a href="#">Dropdown</a>
+            </li>
+         </ul>
+      </nav>
 
-   <section>
-      <p style="color: rgb(107, 47, 92)">(Section textarea)</p>
-      <table>
-      <thead>
-         <tr>
-            <th>Vinginajums</th>
-            <th colspan="5">KG x Piegajieni</th>
-            <th>Piezimes</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>Vinginajums Nr.1</td>
-            <td>0 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>Piezimes</td>
-         </tr>
-         <tr>
-            <td>Vinginajums Nr.2</td>
-            <td>0 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>Piezimes</td>
-         </tr>
-         <tr>
-            <td>Vinginajums Nr.3</td>
-            <td>0 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>10 x 10</td>
-            <td>Piezimes</td>
-         </tr>
-      </tbody>
-      <tfoot>
-         <!-- Add footer text align to the left side of table-->
-         <tr>
-            <td colspan="7">01.01.2001</td>
-         </tr>
-         <tr>
-            <td colspan="7">79 Kg</td>
-         </tr>
-      </tfoot>
-      </table>
-   </section>
+      <main class="container container-c">
+         <table>
+         <thead>
+            <tr>
+               <th>Vinginajums</th>
+               <th colspan="5">KG x Piegajieni</th>
+               <th>Piezimes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Vinginajums Nr.1</td>
+               <td>0 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>Piezimes</td>
+            </tr>
+            <tr>
+               <td>Vinginajums Nr.2</td>
+               <td>0 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>Piezimes</td>
+            </tr>
+            <tr>
+               <td>Vinginajums Nr.3</td>
+               <td>0 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>Piezimes</td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <!-- Add footer text align to the left side of table-->
+            <tr>
+               <td colspan="7">01.01.2001</td>
+            </tr>
+            <tr>
+               <td colspan="7">79 Kg</td>
+            </tr>
+         </tfoot>
+         </table>
+      </main>
 
-   <hr />
-
-   <div class="flex-container">
-      <p>(Flex-box area)</p>
-      <div>Item 1</div>
-      <div>Item 2</div>
-      <div>Item 3</div>
-      <div>Item 4</div>
-      <div>Item 5</div>
-      <div>Item 6</div>
-      <div>Item 7</div>
-      <div>Item 8</div>
-      <div>Item 9</div>
-      <div>Item 10</div>
-      <div>Item 11</div>
-   </div>
-
-   <hr />
-
-   <p>(Grid area)</p>
-<!--
-      <div class="grid-container">
-      <div class="item-a">header</div>
-      <div class="item-b">main</div>
-      <div class="item-c">sidebar</div>
-      <div class="item-d">footer</div>
-
-      <div class="item-d">footer2</div>
-      <div class="item-d">footer3</div>
-      <div class="item-d">footer4</div>
-   </div>
--->
-
-   <div class="wrapper">
-      <div class="item item_size_sm">1</div>
-      <div class="item item_size_md">2</div>
-      <div class="item item_size_lg">3</div>
-      <div class="item item_size_lg">4</div>
-      <div class="item item_size_md">5</div>
-      <div class="item item_size_sm">6</div>
-      <div class="item item_size_md">7</div>
-      <div class="item item_size_sm">8</div>
-      <div class="item item_size_lg">9</div>
-      <div class="item item_size_lg">10</div>
-      <div class="item item_size_sm">11</div>
-      <div class="item item_size_sm">12</div>
-      <div class="item item_size_sm">13</div>
-   </div>
-
-   <hr />
-
-   <aside class="form">
-      <p style="color: rgb(107, 47, 92)">(Aside textarea)</p><br>
-      <form action="" class="wo-form">
+      <aside class="container container-d">
+         <p style="color: rgb(107, 47, 92)">(Aside textarea)</p><br>
+         <form action="" class="wo-form">
          <label for="for_exercise">Exercise:</label>
          <select id="exe" name="exercise">
             <option value="exercise_1">Dumbell Press</option>
@@ -164,18 +107,17 @@
          <input type="submit" value="Gatavs!"> <!-- to submit input values -->
          <input type="reset" value="Reset"> <!-- to reset input values -->
       </form>
-   </aside>
+      </aside>
 
-   <hr />
-   
-   <footer>
-      <nav>
-         <ul class="bottom-nav">
-            <li><a href="#">Home Page</a></li>
-            <li><a href="#">About Us</a></li>
-         </ul>
-      </nav>
-      
-   </footer>
+      <footer class="container container-e">
+         <nav>
+            <ul class="bottom-nav">
+               <li><a href="#">Home Page</a></li>
+               <li><a href="#">About Us</a></li>
+            </ul>
+         </nav>
+      </footer>
+
+   </div>
 </body>
 </html>

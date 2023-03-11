@@ -1,9 +1,3 @@
-aside {
-   width: 40%;
-   /*float: right;*/
-     /* Places an element on the left or right side of its container, allowing text and inline elements to wrap around it */
- }
-
 .form {
    text-align: center;
 }

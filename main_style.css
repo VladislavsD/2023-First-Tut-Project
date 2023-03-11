@@ -11,13 +11,14 @@ body {
   background-color: rgb(238, 199, 142);
 }
 
-header, section, aside, footer {
+header, main, nav, section, aside, footer {
   background-color: rgba(133, 255, 143, 0.4); /* Sets the bg-color of an element */
+  border: 1px solid red;
 }
 
 
 /* On screens that are 720 or less, set bg-color to lightgreen */
-@media  screen and (min-width: 720px) {
+@media  screen and (max-width: 720px) {
   * {
     background-color: lightgreen;
   }
