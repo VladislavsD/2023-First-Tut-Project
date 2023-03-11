@@ -1,0 +1,110 @@
+/*
+
+h1 {color:blue !important; font-size:12px;}
+    Where:
+        h1 is SELECTOR
+        color is PROPERTY
+        blue !important is VALUE (and !important used to override property)
+        font-size is PROPERTY
+        12px is VALUE 
+
+Specificity Hierarchy
+
+Every CSS selector has its place in the specificity hierarchy.
+
+There are four categories which define the specificity level of a selector:
+
+    Inline styles - Example: <h1 style="color: pink;">
+    IDs - Example: #navbar
+    Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+    Elements and pseudo-elements - Example: h1, :before
+
+
+
+
+background          -> Sets all the background properties in one declaration
+background-attachment-> Sets weather a background image is fixed or scrolls with the rest of the page
+
+background-clip     -> Specifies the painting area of the background
+background-color    -> Sets the bg color of an element
+background-image    -> Sets the bg image for an element
+background-origin   -> Specifies where the bg image(s) is/are positioned
+background-position -> Sets the starting position of a background image
+background-repeat   -> Sets how a background image will be repeated
+background-size     -> Specifies the size of the background image(s)
+
+border        -> Sets all the border properties in one declaration
+border-color  -> Sets the color of the four borders
+border-radius ->	Sets all the four border-*-radius properties for rounded corners
+
+/ border-style /  ->	Sets the style of the four borders
+/ border-width /  ->	Sets the width of the four borders
+
+/ margin / ->	A shorthand property for setting all the margin properties in one declaration. Margins are used to create space around elements, outside of any defined borders.
+
+/ padding /     -> Used to create space around an element's content, inside of any defined borders.
+
+/ padding-top / ->	Sets the top padding of an element.
+
+height      -> Sets the height of an element
+max-height  -> Sets the maximum height of an element
+min-height  -> Sets the minimum height of an element
+width       -> Sets the width of an element
+max-width   -> Sets the maximum width of an element
+min-width   -> Sets the minimum width of an element
+
+The CSS Box Model:
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. 
+    Content - The content of the box, where text and images appear
+    Padding - Clears an area around the content. The padding is transparent
+    Border - A border that goes around the padding and content
+    Margin - Clears an area outside the border. The margin is transparent
+
+/ outline / ->	A shorthand property for setting outline-width, outline-style, and outline-color in one declaration
+
+/ color / ->	Specifies the color of text
+
+/ text-align /            ->	Specifies the horizontal alignment of text
+/ text-align: justify; /  -> Each line is stretched so that every line has equal width, and the left and right margins are straight.
+
+/ text-decoration /         -> Sets all the text-decoration properties in one declaration.
+
+/ text-decoration-line /    -> Specifies the kind of text decoration to be used (underline, overline, etc.)
+
+/ text-decoration: none; /  -> Is used to remove the underline from links.
+/ text-transform /          -> Controls the capitalization of text (uppercase or lowercase letters, or capitalize)
+
+/ text-indent /     -> property is used to specify the indentation of the first line of a text.
+
+/ letter-spacing /  -> property is used to specify the space between the characters in a text.
+
+/ line-height /     -> property is used to specify the space between lines.
+/ word-spacing /    -> property is used to specify the space between the words in a text.
+
+/ white-space: nowrap; / -> white-space property specifies how white-space inside an element is handled.
+
+/ text-shadow / -> Specifies the shadow effect added to text.
+/ overflow / -> Specifies what happens if content overflows an element's box
+
+/ overflow-wrap / -> Specifies whether or not the browser can break lines with long words, if they overflow its container
+
+/ overflow-x / -> Specifies what to do with the left/right edges of the content if it overflows the element's content area
+/ overflow-y / -> Specifies what to do with the top/bottom edges of the content if it overflows the element's content area
+
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+
+element element 	div p 	Selects all <p> elements inside <div> elements
+
+element>element 	div > p 	Selects all <p> elements where the parent is a <div> element
+
+element+element 	div + p 	Selects the first <p> element that are placed immediately after <div> elements
+
+element1~element2 	p ~ ul 	Selects every <ul> element that are preceded by a <p> element
+
+
+*/

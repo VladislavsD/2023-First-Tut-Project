@@ -1,0 +1,14 @@
+header {
+   text-align: center;
+   padding: 60px;
+   /*background-size: 1061px 157px; /* if we have an background image, we can resize it */
+   background-position: top; /* or we can specify in pixels */
+   background-attachment: scroll;
+   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bd7b5253-9e7e-4391-9595-31a2daab36d3/ddl6k53-db5de5e8-cfdd-48b3-be1c-8eb73ec55878.png/v1/fill/w_1280,h_720,q_80,strp/outrun_wallpaper__hi_res_by_radiotango_ddl6k53-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYmQ3YjUyNTMtOWU3ZS00MzkxLTk1OTUtMzFhMmRhYWIzNmQzXC9kZGw2azUzLWRiNWRlNWU4LWNmZGQtNDhiMy1iZTFjLThlYjczZWM1NTg3OC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.idJIHmaD5iFVhgkULrlHiz63GDTPN81pMpesH-O2Fcw");  
+}
+
+header h1 {
+   color:  rgb(52, 0, 59);
+   /* 1 pixel pink shadow to left, top, right and bottom */
+   text-shadow: -1px 0 #ffca85, 0 1px #ffca85, 2px 0 #ffca85, 0 -1px #ffca85;
+}

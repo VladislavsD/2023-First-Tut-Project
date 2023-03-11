@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This gives the browser instructions on how to control the page's dimensions and scaling -->
+   <title>Document</title> <!-- The document/web-page title that shows on top of web-page search bar -->
+
+   <link rel="stylesheet" href="css/wo_grid.css">
+   <link rel="stylesheet" href="css/wo_main.css">
+   <link rel="stylesheet" href="css/wo_header-footer.css">
+   <link rel="stylesheet" href="css/wo_nav.css">
+   <link rel="stylesheet" href="css/wo_section-table.css">
+   <link rel="stylesheet" href="css/wo_aside-form.css">
+
+</head>
+<body>
+   <div class="grid-container">
+
+      <header class="container container-a">
+         <h1>2023.jan</h1>
+      </header>
+
+      <nav class="container container-b">
+         <ul class="top-nav">
+            <li>
+               <a href="#">Home</a>
+            </li>
+            <li>
+               <a href="#">About</a>
+            </li>
+            <li>
+               <a href="#">Dropdown</a>
+            </li>
+         </ul>
+      </nav>
+
+      <main class="container container-c">
+         <table>
+         <thead>
+            <tr>
+               <th>Vinginajums</th>
+               <th colspan="5">KG x Piegajieni</th>
+               <th>Piezimes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Vinginajums Nr.1</td>
+               <td>0 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>Piezimes</td>
+            </tr>
+            <tr>
+               <td>Vinginajums Nr.2</td>
+               <td>0 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>Piezimes</td>
+            </tr>
+            <tr>
+               <td>Vinginajums Nr.3</td>
+               <td>0 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>10 x 10</td>
+               <td>Piezimes</td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <!-- Add footer text align to the left side of table-->
+            <tr>
+               <td colspan="7">01.01.2001</td>
+            </tr>
+            <tr>
+               <td colspan="7">79 Kg</td>
+            </tr>
+         </tfoot>
+         </table>
+      </main>
+
+      <aside class="container container-d">
+         <p style="color: rgb(107, 47, 92)">(Aside textarea)</p><br>
+         <form action="" class="wo-form">
+         <label for="for_exercise">Exercise:</label>
+         <select id="exe" name="exercise">
+            <option value="exercise_1">Dumbell Press</option>
+            <option value="exercise_2">Barbell Press</option>
+            <option value="exercise_3">Lat Pull-Down</option>
+            <option value="exercise_4">Pull ups</option>
+            <option value="exercise_5">Squats</option>
+         </select><br><br>
+         <lable for="kgRep">Kg x Rep</lable><br>
+         <input type="text" name="KgPerRep1" id="KgRep"><br>
+         <input type="text" name="KgPerRep2" id="KgRep"><br>
+         <input type="text" name="KgPerRep3" id="KgRep"><br>
+         <input type="text" name="KgPerRep4" id="KgRep"><br>
+         <input type="text" name="KgPerRep5" id="KgRep"><br>
+         <lable for="note">Note</lable><br>
+         <input type="text" name="Note" id="note"><br>
+         <input type="submit" value="Gatavs!"> <!-- to submit input values -->
+         <input type="reset" value="Reset"> <!-- to reset input values -->
+      </form>
+      </aside>
+
+      <footer class="container container-e">
+         <nav>
+            <ul class="bottom-nav">
+               <li><a href="#">Home Page</a></li>
+               <li><a href="#">About Us</a></li>
+            </ul>
+         </nav>
+      </footer>
+
+   </div>
+</body>
+</html>

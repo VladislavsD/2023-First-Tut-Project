@@ -1,0 +1,12 @@
+section {
+   width: 55%;
+   /* width -> Sets the width of an element */
+}
+ 
+table, th, td {
+  border: 1px solid rgb(222, 255, 33);
+  /* border -> Sets all the border properties in one declaration */
+  border-collapse: collapse;
+  /* Used to set the borders of the cell present inside the table and tells whether these cells will share a common border or not.  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

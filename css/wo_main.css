@@ -1,0 +1,25 @@
+* {
+  /* Sets margin: 0; and padding: 0; to remove browser default settings */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat; /* if the image is smaller than the container and we don't want it to repeat */
+  background-attachment: fixed;
+  /* Sets whether a background image is fixed or scrolls with the rest of the page */ 
+}
+
+body {
+  background-color: rgb(238, 199, 142);
+}
+
+header, main, nav, section, aside, footer {
+  background-color: rgba(133, 255, 143, 0.4); /* Sets the bg-color of an element */
+  border: 1px solid red;
+}
+
+
+/* On screens that are 720 or less, set bg-color to lightgreen */
+@media  screen and (max-width: 720px) {
+  * {
+    background-color: lightgreen;
+  }
+}
