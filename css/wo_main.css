@@ -1,3 +1,12 @@
+/* || CSS Variables */
+
+:root {
+  --primary: rgb(238, 199, 142);
+  --dark: ;
+  --light: ;
+  -- shadow: ;
+}
+
 * {
   /* Sets margin: 0; and padding: 0; to remove browser default settings */
   margin: 0;
@@ -8,17 +17,5 @@
 }
 
 body {
-  background-color: rgb(238, 199, 142);
-}
-
-header, main, nav, section, aside, footer {
-  /*background-color: rgba(133, 255, 143, 0.4); /* Sets the bg-color of an element */
-}
-
-
-/* On screens that are 720 or less, set bg-color to lightgreen */
-@media  screen and (max-width: 720px) {
-  * {
-    background-color: lightgreen;
-  }
+  background-color: var(--primary);
 }

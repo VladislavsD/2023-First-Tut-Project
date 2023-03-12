@@ -1,3 +1,4 @@
+/* || TOP CONTAINER */
 .grid-container {
    /*
       an HTML doc element becomes a grid container when its display is set to grid or inline-grid
@@ -6,13 +7,13 @@
       use display:grid to make block-level container OR display:inline-grid to make inline-grid container
    */
    display: grid; /* makes block-level grid container */
-   grid-template-columns: repeat(4, 1fr);  /*or -> 1fr 1fr 1fr 1fr; (makes 4 columns)*/
-   grid-template-rows: repeat(3, 1fr); /* makes 4 rows */
+   grid-template-columns: repeat(12, 1fr);  /* makes 12 columns */
+   /*grid-template-rows: repeat(3, 1fr); /*or -> 1fr 1fr 1fr 1fr;*/
    grid-template-areas:
-      "header header header header"
-      "nav nav nav nav"
-      "main main main aside"
-      "footer footer footer footer";
+      "he he he he   he he he he   he he he he"
+      "na na na na   na na na na   na na na na"
+      "ma ma ma ma   ma ma ma ma   ma as as as"
+      "fo fo fo fo   fo fo fo fo   fo fo fo fo";
    /* 
       grid-template-areas -> defines a grid template by referencing the names of the grid areas */
    /*
@@ -29,26 +30,84 @@
 }
 
 .container {
-   border: 1px solid green;
+   border: 2px solid green;
    text-align: center;
 }
 
-.container-a {
-   grid-area: header;
+/* || SHOWCASE */
+.container-a-header {
+   grid-area: he;
 }
 
-.container-b {
-   grid-area: nav;
+.container-b-nav {
+   grid-area: na;
 }
 
-.container-c {
-   grid-area: main;
+.container-c-main {
+   grid-area: ma;
 }
 
-.container-d {
-   grid-area: aside;
+.container-d-aside {
+   grid-area: as;
 }
 
-.container-e {
-   grid-area: footer;
+.container-e-footer {
+   grid-area: fo;
 }
+
+/* || LAYOUT ON DIFFERENT SCREEN SIZES */
+
+/*
+   Media Querie for Tablets
+*/
+
+/* On screens that are 720 or less, set: */
+@media screen and (max-width: 720px) {
+   .grid-container {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas:
+         "he he he he   he he he he   he he he he"
+         "na na na na   na na na na   na na na na"
+         "ma ma ma ma   ma ma ma ma   ma ma ma ma"
+         "as as as as   as as as as   as as as as"
+         "fo fo fo fo   fo fo fo fo   fo fo fo fo";
+   }
+   /* || OTHER PART OF CODE */
+   .container {
+      border: 2px solid rgb(255, 47, 47);
+   }
+}
+
+/*
+   Media Querie for Mobile Phones
+*/
+
+/* On screens that are 480 or less, set: */
+@media screen and (max-width: 480px) {
+   .grid-container {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas:
+         "he he he he   he he he he   he he he he"
+         "na na na na   na na na na   na na na na"
+         "ma ma ma ma   ma ma ma ma   ma ma ma ma"
+         "as as as as   as as as as   as as as as"
+         "fo fo fo fo   fo fo fo fo   fo fo fo fo";
+   }
+   /* || OTHER PART OF CODE */
+   .container {
+      border: 2px solid rgb(42, 5, 255);
+   }
+
+   /* || Style the ... */
+   .top-nav li {
+      display: block; /*to remove line breaks before and after each list item, to display them on one line */
+   }
+
+   footer {
+        position: static;
+        bottom: 0;
+   }
+}
+

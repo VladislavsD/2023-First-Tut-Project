@@ -1,12 +1,15 @@
-section {
-   width: 55%;
-   /* width -> Sets the width of an element */
-}
- 
 table, th, td {
-  border: 1px solid rgb(222, 255, 33);
+  
+  border: 1px solid rgb(173, 112, 32);
   /* border -> Sets all the border properties in one declaration */
   border-collapse: collapse;
   /* Used to set the borders of the cell present inside the table and tells whether these cells will share a common border or not.  */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px; /*when site is small table sets 20px upper bottom*/
 }
