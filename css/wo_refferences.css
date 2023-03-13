@@ -1,4 +1,20 @@
+   /* 
+      grid-template-areas -> defines a grid template by referencing the names of the grid areas */
+   /*
+      <grid-area-name>  – the name of a grid area specified with grid-area,
+      .                 - a period signifies an empty grid-area,
+      none              - no grid areas are defined
+   */
+
+   
+   /* grid-auto-flow: dense; /* place items to fill any holes in the grid */
+   /*
+      The grid-auto-flow property controls how auto-placed items get inserted in the grid.
+   */
+
 /*
+
+
 
 h1 {color:blue !important; font-size:12px;}
     Where:
